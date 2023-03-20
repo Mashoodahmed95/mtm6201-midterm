@@ -91,7 +91,7 @@ padding: 2rem 0.8rem;
     margin: 0rem 0.8rem;
 }
 
-/*  */
+/* image adjustment */
 
 .showoff picture img{
     position: relative;
@@ -152,7 +152,7 @@ padding: 2rem 0.8rem;
     margin: auto;
 }
 
-/*  */
+/* form */
 
 .forminput {
     width: 99%;
@@ -179,7 +179,9 @@ padding: 2rem 0.8rem;
     height: 5rem;
 }
 
-/* adding style to submit button */
+/*submit button */
+
+
 .formbutton {
     text-decoration: none;
     padding: 0.5rem 3rem;
@@ -209,9 +211,9 @@ padding: 2rem 0.8rem;
     font-size: 3rem;
 }
 
-/* 
-adds style to about page
- */
+
+
+/* style about page*/
 
 .aboutus img{
     width: 100%;
@@ -244,12 +246,17 @@ adds style to about page
 }
 
 @media screen and (min-width: 960px) {
-    /* resizing logo */
+
+
+    /* logo size */
     .logo{
         width: 250px;
     }
 
-    /* aligning navbar to right */
+
+
+
+    /* nav bar alignment */
     header{
         justify-content: space-between;
         margin: auto;
@@ -340,9 +347,7 @@ adds style to about page
 
 
 
-    /* 
-    adds style to about page
-    */
+    /* style to about page*/
 
     .babyfeet{grid-area: m1;}
     .story{grid-area: m2;}
